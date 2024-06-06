@@ -1,0 +1,41 @@
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.Item{
+   color: aqua;
+   padding:30px;
+   
+   margin: 10px;
+}
+
+#Item-1{
+    background-color: green;
+    padding: 50px;
+    
+}
+
+#Item-2{
+    background-color: rgb(97, 4, 4);
+}
+
+#Item-3{
+    background-color: purple;
+    padding: 100px;
+}
+
+#Item-4{
+    background-color: rgb(3, 3, 129);
+    padding: 20px;
+}
+
+@media(min-width:756px) {
+       #Item-1{
+        flex-direction: row;
+       }
+    
+}
